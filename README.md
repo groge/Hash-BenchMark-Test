@@ -1,8 +1,12 @@
 # Hash-BenchMark-Test
 Testing speed and collisions of various hash algorithms with Nodejs
 
-```console
+The purpose of this test is to find a safe and fast hash algorithm for Redis Key.
+Therefore, the output string was extracted in base62 format if possible to shorten it as much as possible.
+
 Test Result Example
+
+```console
 
 [Examples]
 ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
