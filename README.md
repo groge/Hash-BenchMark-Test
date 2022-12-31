@@ -4,6 +4,9 @@ Testing speed and collisions of various hash algorithms with Nodejs
 The purpose of this test is to find a safe and fast hash algorithm for Redis Key.
 Therefore, the output string was extracted in base62 format if possible to shorten it as much as possible.
 
+In conclusion, I was using djb2a before, but after this test I changed to fnv-plus(fnv1a52) algorithm.
+
+
 Test Result Example
 
 ```console
